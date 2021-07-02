@@ -1,0 +1,17 @@
+:root {
+    --display-flex: flex;
+}
+
+.header {
+    background: #222;
+    height: 50px;
+    width: 100%;
+    display: var(--display-flex);
+}
+
+.align {
+    flex: 1 0 90%;
+    /* justify-content: space-between; */
+    /* display: flex; */
+    align-items: center;
+}

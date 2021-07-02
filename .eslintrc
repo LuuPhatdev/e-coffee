@@ -1,0 +1,28 @@
+{
+    "extends": ["react-app", "prettier"],
+    "plugins": ["react", "prettier"],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "complexity": ["error", 22],
+        "camelcase": "error",
+        "prettier/prettier": [
+            "warn",
+            {
+                "arrowParens": "avoid",
+                "semi": true,
+                "trailingComma": "none",
+                "endOfLine": "lf",
+                "tabWidth": 4,
+                "printWidth": 80,
+                "useTabs": false
+            }
+        ],
+        "no-console": "warn"
+    }
+}

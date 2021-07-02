@@ -1,0 +1,7 @@
+.order {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    justify-items: flex-end;
+    align-self: flex-end;
+}

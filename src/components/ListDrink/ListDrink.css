@@ -1,0 +1,7 @@
+.ListDrink {
+    width: 100%;
+    padding: 30px 0;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px 50px;
+}

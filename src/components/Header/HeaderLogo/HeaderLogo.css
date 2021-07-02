@@ -1,0 +1,16 @@
+.logo {
+    display: flex;
+    justify-items: center;
+}
+
+.text-decoraion {
+    text-decoration: none;
+}
+
+/* .text-w {
+    color: #fff;
+} */
+
+.block {
+    display: block;
+}

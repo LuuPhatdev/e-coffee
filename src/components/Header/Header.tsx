@@ -5,7 +5,7 @@ import HeaderLogo from "./HeaderLogo/HeaderLogo";
 export default function Header() {
     return (
         <div className="header">
-            <div className="container align justify-between flex">
+            <div className="container mx-auto align justify-between flex">
                 <HeaderLogo />
                 <HeaderButtonOrder />
             </div>

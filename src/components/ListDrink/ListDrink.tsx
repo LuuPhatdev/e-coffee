@@ -4,7 +4,7 @@ import "./ListDrink.css";
 
 export default function ListDrink() {
     return (
-        <div className="container">
+        <div className="container mx-auto">
             <div className="ListDrink">
                 <Drink />
                 <Drink />

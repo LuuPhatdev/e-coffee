@@ -2,7 +2,7 @@
     "extends": ["react-app", "prettier"],
     "plugins": ["react", "prettier"],
     "parserOptions": {
-        "ecmaVersion": 6,
+        "ecmaVersion": 12,
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
@@ -24,5 +24,13 @@
             }
         ],
         "no-console": "warn"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["src"],
+                "extensions": [".js", ".jsx", ".json", ".ts", ".tsx"]
+            }
+        }
     }
 }
